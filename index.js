@@ -11,6 +11,11 @@ http.createServer(function(req, res) {
   <title>Web page</title>
   <meta name="description" content="This is an example of a properly structured HTML page.">
   <link rel="stylesheet" href="styles.css">
+   <style>
+    body {
+      background-color: #a9cceaff; 
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -33,4 +38,4 @@ http.createServer(function(req, res) {
     }).listen(port, function() { 
         console.log(`Node server is running on port ${port}...`); 
 }); 
-//I AM ADDING A COMMENT TO TEST THE COMPARISON
+//ADDED A BACKGROUND COLOUR
